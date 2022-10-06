@@ -6,6 +6,7 @@ export default function CoinList({ coinData }) {
     return (
         <div className={styles.container}>
             <h1>Coin List </h1>
+            <p>123</p>
             <div className={styles.coinContainer}>
                 {coins.map((coin) => {
                     return (
